@@ -59,7 +59,7 @@ In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have bee
 
 18. In the left-hand navigation pane, select the **Show All** ellipsis … icon to display all the navigation menu options.
 
-19. In the left-hand navigation pane, select **Settings** and then select **Organization profile**.
+19. In the left-hand navigation pane, select **Settings** , select **Settings** , select **Organization profile** , adn then slecet **Organization information**.
 
 20. In the **Organization Profile** window, it displays Contoso as the organization name. To the right of this, select the **pencil** (**Edit**) icon to change this information.   <br/>
 
@@ -85,25 +85,25 @@ In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have bee
 
 22. Select **Save**.
 
-23. On the **Organization information** window, select **Close.**
+23. On the **Organization information** window, select **X** to close window.
 
-24. To the right of **Release preferences**, select the **pencil** (**Edit**) icon.
+24. Select **Release preferences**.
 
-25. In the **Release preferences** window, select **Targeted release for selected users** and then select **Next.**  <br/>
+25. In the **Release preferences** window, select **Targeted release for selected users** and then select **Save changes.**  <br/>
 
     ‎**Note:** One of the benefits of Office 365 is the ability to have the latest features and updates applied to your environment automatically, which can reduce maintenance costs and overhead for an organization. By setting up your Release preferences, you can control how and when your Office 365 tenant receives these updates.
 
-26. In the **Are you sure you want to change to Targeted release for select people** window, select **Yes.**  <br/>
+26. 
 
     **Note:** This option enables you to create a control group of users who will preview updates so that you can prepare the updates for your entire organization. The **Targeted release for everyone** option is more commonly used in development environments, where you can get updates early for your entire organization. In non-development environments, such as Adatum, targeted release to select people is the more typical preference as it enables an organization to control when it wants to make updates available to everyone once they’ve been reviewed by the control group.
 
-27. In the **Release preferences** window, select **Add people.**
+27. In the **Release preferences** window, select **Select users.**
 
-28. In the **Manage people for First** **release** window, in the list of users, select the checkbox for **MOD Administrator** and then select **Save**.
+28. In the **Choose users for targeted release** window, in the box type **MOD**, select **MOD Administrator** and then select **Save changes**.
 
 29. Select **Close**, and then select **Close** again. This returns you to the **Organization Profile** window.
 
-30. To the right of **Manage custom themes for your organization**, select the **pencil** (**Edit**) icon.
+30. Select **Custom themes.**
 
 31. In the **Customize Office 365 for your organization** window, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color. Go ahead and explore some different options for your tenant. Make any changes that you wish. <br/>
 
@@ -261,7 +261,7 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since she doesn’t have a
 
 8. In the **Optional settings** window, select the drop-down arrow to the right of **Roles.** 
 
-9. In the **Roles information** that appears, uncheck **User (no administrator access).** By doing so, all the Microsoft 365 administrator roles are now enabled and available to be assigned.
+9. In the **Roles information** that appears, Select **Admin center access** By doing so, all the Microsoft 365 administrator roles are now enabled and available to be assigned.
 
 10. Select **Global Administrator** and then select **Next**.
 
@@ -314,7 +314,7 @@ In the prior task, you added several new Microsoft 365 user accounts. In this ta
 
 	- Owner: **Alan Yoo**
 
-3. Select **Add** and then **Close.**
+3. Select **Create group** and then **Close.**
 
 4. In the **Groups** window, select **Add a group** and then enter the following information for the new group:
 
@@ -326,7 +326,7 @@ In the prior task, you added several new Microsoft 365 user accounts. In this ta
 
 	**Note:** there is no owner, email address, or privacy setting for Security groups
 
-5. Select **Add** and then **Close.**
+5. Select **Create Group** and then **Close.**
 
 6. If the new groups do not appear in the **Groups** list, select the **Refresh** icon to the right of the URL in Internet Explorer. Both groups should now appear. 
 
@@ -352,7 +352,7 @@ In the prior task, you added several new Microsoft 365 user accounts. In this ta
 
 	- Description: **Accounts Receivable department users** 
 
-15. Select **Add** and then **Close.**
+15. Select **Create Group** and then **Close.**
 
 16. If the Accounts Receivable group does not appear in the **Groups** list, select the **Refresh** icon to the right of the URL in Internet Explorer. The group should now appear.
 
@@ -464,7 +464,7 @@ Azure AD is required to perform several group management tasks in Microsoft 365,
 
 	- Before you can restore this deleted group, you must first copy the Object ID of the Inside Sales group that appears in the table of deleted groups. When you perform the next command to restore the group, you will use this ID to identify the group that you want restored. <br/>
 	
-		To copy the ID, select the entire ID and then right-click and select **Copy**.
+		To copy the ID, select the entire ID and then right-click it.
 
 	- You should then run the following command to retrieve and restore the deleted group whose Object ID matches the value you enter:<br/>  
 
