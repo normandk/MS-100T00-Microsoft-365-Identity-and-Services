@@ -36,9 +36,9 @@ As Holly Dickson, Adatum’s Enterprise Administrator (and Microsoft 365 Global 
 
 12. Adam Hobbs’s properties window displays, and the **Account** tab is displayed by default. Under the **Roles** section, select **Manage roles**. 
 
-13. In the **Manage admin roles** window, uncheck the **User (no administrator access)** checkbox. This enables the roles. 
+13. In the **Manage admin roles** window, select **Admin center access** . This enables the roles. 
 
-14. Scroll down, and under the **Billing** section, select the **Billing administrator** role and then select **Save changes**. 
+14. Expand **Show All by Category**, scroll down to **Other**,   select the **Billing admin** role and then select **Save changes**. 
 
 15. Select the **X** in the upper-right corner of the screen to close the **Admin roles updated** window.
 
@@ -93,7 +93,7 @@ This task is similar to the prior one in that you will assign administrator righ
 
 	**&dollar;role = Get-MsolRole -RoleName "Service Support Administrator"**<br/>
 
-	‎**Get-MsolRoleMember -RoleObjectId $role.ObjectId**
+	**Get-MsolRoleMember -RoleObjectId $role.ObjectId**
 	
 9. Verify that **Libby Hayward** is in the list of users who have the **Service Support Administrator** role. 
 
@@ -101,7 +101,7 @@ This task is similar to the prior one in that you will assign administrator righ
 
 	**&dollar;role = Get-MsolRole -RoleName "Company Administrator"**<br/>
 
-	‎**Get-MsolRoleMember -RoleObjectId $role.ObjectId**   
+	**Get-MsolRoleMember -RoleObjectId $role.ObjectId**   
 
 11. Verify that **Laura Atkins** is in the list of users who have the **Company Administrator** role.   <br/>
 
@@ -111,7 +111,7 @@ This task is similar to the prior one in that you will assign administrator righ
 
 	**&dollar;role = Get-MsolRole -RoleName "Billing Administrator"**  <br/>
 
-	‎**Get-MsolRoleMember -RoleObjectId $role.ObjectId** 
+	**Get-MsolRoleMember -RoleObjectId $role.ObjectId** 
 
 13. Verify that **Adam Hobbs** is in the list of users who have the **Billing Administrator** role (you assigned Adam to this role in the prior task using the Microsoft 365 admin center). 
 
@@ -170,17 +170,9 @@ In this task, you will log into the Client 1 (LON-CL1) VM and then log into the 
 
 20. Select **Send email and close.** 
 
-21. Management has recently discovered that Adam Hobbs’s username may have been compromised. As a result, Ada has been asked to block Adam’s account so that no one can sign in with his username until management is able to determine the extent of the issue. In the **Active users** list, select the circle to the left of **Adam Hobbs’s** name (do NOT select Adam’s name itself). 
+21. Ada has finished maintaining these accounts, so log out of the Microsoft 365 admin center by selecting the user icon for **Ada Russell** (the **AR circle**), and in her **My account** pane, select **Sign out.** 
 
-22. In the menu bar at the top of the page, select the **ellipsis icon** to display a drop-down menu of additional options. Select **Edit sign-in status**.
-
-23. In the **Block this user?** window, select the **Block this user from signing in** checkbox, and then select **Save changes.** 
-
-24. Close the **Block this user?** window by selecting **Cancel**. 
-
-25. Ada has finished maintaining these accounts, so log out of the Microsoft 365 admin center by selecting the user icon for **Ada Russell** (the **AR circle**), and in her **My account** pane, select **Sign out.** 
-
-26. Once Ada is signed out, close Microsoft Edge. 
+22. Once Ada is signed out, close Microsoft Edge. 
 
 
 # Proceed to Exercise 2
